@@ -1,0 +1,23 @@
+[port]
+name = "node"
+description = "Chromagoth palette data for Node.js — ESM, CJS, TypeScript, JSON"
+
+[[render]]
+template = "palettes.json.tmpl"
+output = "dist/palettes.json"
+per_variant = false
+
+[[render]]
+template = "index.mjs.tmpl"
+output = "dist/index.mjs"
+per_variant = false
+
+[[render]]
+template = "index.cjs.tmpl"
+output = "dist/index.cjs"
+per_variant = false
+
+[[render]]
+template = "index.d.ts.tmpl"
+output = "dist/index.d.ts"
+per_variant = false
