@@ -1,8 +1,14 @@
 {
   "name": "@chromagoth/node",
   "version": "0.1.0",
+  "license": "MIT",
   "exports": {
     ".": "./dist/index.mjs",
     "./json": "./dist/palettes.json"
+  },
+  "publish": {
+    "include": [
+      "dist/"
+    ]
   }
 }
