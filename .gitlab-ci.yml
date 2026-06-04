@@ -34,7 +34,7 @@ publish:jsr:dev:
     - when: never
 build:
   image:
-    name: registry.gitlab.com/chromagoth/palettes:0.1.1
+    name: registry.gitlab.com/chromagoth/palettes:0.2.3
     entrypoint: [""]
   stage: build
   script:
